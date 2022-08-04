@@ -1,0 +1,24 @@
+.cabecalho__link {
+    color: black;
+    margin: 0 0 0 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cabecalho__link:hover, .ativo {
+    border-bottom: 1px solid #333333;
+    color: #ee0000;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__link {
+        margin: 0 0 0 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__link {
+        font-size: 1rem;
+    }
+}

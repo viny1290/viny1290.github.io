@@ -1,0 +1,48 @@
+.projetos__img {
+    width: 150px;
+    height: 150px;
+    background: url(../../../img/embreve.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: all 2s ease-in-out;
+}
+
+.projetos__img:hover {
+    opacity: 1;
+}
+
+.projetos__img--barbeariaalura {
+    background: url(../../../projetos/Modulo-01HTMLeCSS-Copia/imagens/logo-branco.png);
+    background-position: center;
+}
+
+.projetos__img--academia {
+    background: url(../../../projetos/academia-Copia/img/img5.jpg);
+    background-position: center;
+    background-size: 15rem;
+}
+
+.projetos__img--cachorro {
+    background: url(../../../projetos/Galeriadefotos/img/cachorro1.jpg);
+    background-position: center;
+    background-size: 15rem;
+}
+
+.projetos__img:hover .projetos__subtitulo {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos__img {
+        width: 200px;
+        height: 200px;
+        background-size: 18em;
+    }
+}

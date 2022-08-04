@@ -1,0 +1,10 @@
+.projetos__img {
+    grid-area: projetos-img;
+    width: 100%;
+    height: 100%;
+    transition: 1s ease-in-out;
+}
+
+.projetos__objeto:hover .projetos__img {
+    opacity: 0.6;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    width: 1350px;
+    height: 70px;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: flex-end;
+}
+
+.divlogo{
+    width: 150px;
+    height: 70px;
+}
+
+.imglogo{
+    width: 150px;
+    height: 70px;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.main-content{
+    height: 1000px;
+    background: linear-gradient(rgba(79, 79, 79, 0.8), rgba(220, 220, 220, 1)), url(img/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.cont{
+    display: flex;
+    justify-content: baseline;
+}
+
+.primary-text{
+    width: 500px;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin: 15px;
+}
+
+.second-text{
+    width: 500px;
+    height: 40px;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 70px;
+    color: rgb(240, 230, 92);
+}
+
+.trailer{
+    padding: 10px;
+    margin: 50px;
+}
+
+.vdtrailer{
+    border: double 9px #FFFF00;
+    border-radius: 30px;
+}
+
+.vdtrailer2{
+    border: double 9px #FFFF00;
+    border-radius: 30px;
+}
+
+.plataformas{
+    height: 100px;
+    text-align: center;
+}
+
+.pla{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+a{
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.you{
+    width: 1300px;
+    margin-left: 10px;
+    background-color: #1a0272;
+    border: double 4px #1a0272;
+    border-radius: 30px;
+}
+
+.textvideo{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tube{
+    margin: 30px;
+}
+
+.videos{
+    margin-left: 15px;
+}

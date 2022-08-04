@@ -1,0 +1,11 @@
+.sobre__titulo {
+    font-size: 2rem;
+    color: var(--letra);
+    font-family: var(--letra-titulos);
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3rem;
+    }
+}

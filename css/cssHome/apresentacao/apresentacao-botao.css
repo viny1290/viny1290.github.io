@@ -1,0 +1,24 @@
+.apresentacao__botao {
+    border: 2px solid var(--borda);
+    border-radius: 10px;
+    padding: .5rem;
+    margin: 0 0 1em 0;
+    transition: 2s ease-in-out;
+}
+
+.apresentacao__botao:hover {
+    background: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao__botao {
+        margin: 0 1rem 0 0;
+        border: 3px solid var(--borda);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .apresentacao__botao {
+        margin: 0 2rem 0 0;
+    }
+}

@@ -1,0 +1,11 @@
+.apresentacao__img {
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao__img {
+        width: 40%;
+        float: right;
+        order: 1;
+    }
+}

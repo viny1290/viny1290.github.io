@@ -1,0 +1,12 @@
+.projetos__subtitulo {
+    color: var(--letra-projetos);
+    display: none;
+    font-size: 1rem;
+    transition: 4s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos__subtitulo {
+        font-size: 1.4rem;
+    }
+}

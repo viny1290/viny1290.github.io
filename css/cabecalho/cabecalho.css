@@ -1,0 +1,10 @@
+.cabecalho {
+    background: var(--fundo-cabecalho);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 1rem 5rem 1rem 1rem;
+    }
+}
