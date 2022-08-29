@@ -18,6 +18,11 @@
     opacity: 1;
 }
 
+.projetos__img--optimus {
+    background: url(../../../img/optimus.png);
+    background-position: center;
+}
+
 .projetos__img--barbeariaalura {
     background: url(../../../projetos/Modulo-01HTMLeCSS-Copia/imagens/logo-branco.png);
     background-position: center;
