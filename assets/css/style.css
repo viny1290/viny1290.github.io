@@ -1,66 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('menu/menu.css');
+
 :root {
     --menu: #00008B;
     --icones: #fff;
     --letra: #D3D3D3;
+
+    --cor-mobile: #fff;
+    --letra-mobile: #000;
+
+    --cor-fundo: #000000;
+
+    --font: 'Inter', sans-serif;
 }
 
-.menu {
-    align-items: center;
-    background-color: var(--menu);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1rem;
-}
-
-.menu__lista--redes {
-    display: flex;
-}
-
-.menu__item {
-    background-color: #4F4F4F;
-    margin: 1rem;
-    border-radius: 5rem;
-    padding: .5rem;
-}
-
-.menu__home {
-    display: none;
-}
-
-.menu__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu__texto {
-    color: var(--letra);
-    margin: 0 .5rem;
-}
-
-.menu__icon {
-    color: var(--icones);
-}
-
-.menu__menu--icon button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.open {
-    display: block;
-}
-
-.off {
-    display: none;
-}
-
-.menu__lista--mobile {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    
-    padding: 1rem;
-    align-items: center;
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--font);
+    font-size: 16px;
 }
