@@ -7,6 +7,7 @@
 
 .menu__logo--img {
     width: 6rem;
+    cursor: pointer;
 }
 
 .menu__lista--redes {
@@ -21,11 +22,21 @@
     display: none;
 }
 
+.menu__lista {
+    display: flex;
+}
+
 .menu__link {
+    color: var(--letra);
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+.menu__link:hover {
+    text-decoration: overline;
 }
 
 .menu__icon {
@@ -73,4 +84,28 @@
 .menu__link--mobile {
     color: var(--letra-mobile);
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__logo--img {
+        width: 8rem;
+    }
+
+    .menu__texto {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .menu {
+        padding: 0 1.5rem;
+    }
+
+    .menu__home {
+        display: block;
+    }
+
+    .menu__menu--icon {
+        display: none;
+    }
 }
