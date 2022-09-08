@@ -88,7 +88,7 @@
 
 @media screen and (min-width: 768px) {
     .menu__logo--img {
-        width: 8rem;
+        width: 7rem;
     }
 
     .menu__texto {
@@ -98,7 +98,7 @@
 
 @media screen and (min-width: 1280px) {
     .menu {
-        padding: 0 1.5rem;
+        padding: 0 10rem;
     }
 
     .menu__home {
@@ -107,5 +107,13 @@
 
     .menu__menu--icon {
         display: none;
+    }
+
+    .menu__item {
+        margin: 0 1rem;
+    }
+
+    .menu__link {
+        font-size: 13px;
     }
 }

@@ -1,6 +1,4 @@
-.apresentacao {
-    width: 100%;
-    overflow: hidden;
+.apresentacao__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,12 +57,14 @@
 
 @media screen and (min-width: 1280px) {
     .apresentacao {
-        padding: 1rem;
+        margin: 6rem 0;
     }
-    
-    .apresentacao__conteudo {
+
+    .apresentacao__container {
+        margin: 0 5rem;
+        padding: 1rem;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
 
@@ -77,6 +77,6 @@
     }
 
     .apresentacao__img {
-        width: 25rem;
+        width: 20rem;
     }
 }
