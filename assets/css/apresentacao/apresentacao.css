@@ -1,5 +1,6 @@
 .apresentacao__container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -14,7 +15,8 @@
 }
 
 .apresentacao__conteudo {
-    width: 100%;
+    margin: 0 50%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,10 +39,20 @@
 }
 
 .apresentacao__img {
-    display: none;
+    opacity: 0.9;
+    width: 10rem;
 }
 
 @media screen and (min-width: 768px) {
+    .apresentacao__container {
+        flex-direction: row;
+    }
+
+    .apresentacao__conteudo {
+        width: 30rem;
+        margin: 0;
+    }
+
     .apresentacao__titulo {
         font-size: 35px;
         margin-top: 1rem;
@@ -51,7 +63,6 @@
     }
 
     .apresentacao__img {
-        display: block;
         width: 20rem;
     }
 }
@@ -67,6 +78,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .apresentacao__conteudo {
+        width: 70rem;
     }
 
     .apresentacao__titulo {
