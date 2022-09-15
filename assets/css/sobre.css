@@ -1,0 +1,134 @@
+.sobre {
+    align-items: center;
+    border: 2px solid var(--menu);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre__botao {
+    border: none;
+    border-radius:  0 0 10px 10px;
+    color: var(--icones);
+    cursor: pointer;
+    padding: .5rem;
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+.botao__desativado {
+    background: transparent;
+}
+
+.botao__ativo {
+    background: var(--menu);
+}
+
+.sobre__conteudo {
+    padding: 1rem;
+}
+
+.sobre__titulo {
+    margin-top: .5rem;
+}
+
+.sobre__texto {
+    margin: .5rem;
+    font-size: 15px;
+}
+
+.conteudo__ativo {
+    display: block;
+}
+
+.conteudo__desativado {
+    display: none;
+}
+
+
+.sobre__carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 20rem;
+    width: 20rem;
+}
+
+.sobre__container {
+    padding: 1rem;
+    display: flex;
+    transition: transform .5s ease-in-out;
+    transform: translateX(0);
+}
+
+.sobre__img {
+    margin: .5rem 0;
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+}
+
+.sobre__container--tab {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        border: 5px solid var(--menu);
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .sobre__botao {
+        display: flex;
+        padding: 2rem;
+        flex-direction: column;
+        font-size: 23px;
+        border-radius: 0 10px 10px 0;
+        margin: .5rem 0;
+    }
+
+    .sobre__titulo {
+        font-size: 45px;
+    }
+
+    .sobre__texto {
+        font-size: 25px;
+    }
+
+    .sobre__carrossel {
+        height: 30rem;
+        width: 30rem;
+    }
+
+    .sobre__container--mobile {
+        display: none;
+    }
+
+    .sobre__container--ot {
+        display: flex;
+    }
+
+    .sobre__img {
+        height: 30rem;
+        width: 30rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .sobre {
+        border: 8px solid var(--menu);
+        justify-content: flex-start;
+    }
+
+    .sobre__titulo {
+        font-size: 50px;
+    }
+
+    .sobre__carrossel {
+        margin: 0 50%;
+    }
+
+
+}

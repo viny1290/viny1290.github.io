@@ -6,140 +6,219 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VN | Portfólio</title>
 
-    <link rel="stylesheet" href="css/base.css">
-
-    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-link.css">
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-objeto.css">
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-lista.css">
-    <link rel="stylesheet" href="css/cabecalho/cabecalho-navegacao.css">
-
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-titulo.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-subtitulo.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-img.css">
-
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-redes.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-lista.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-botao.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-link.css">
-    <link rel="stylesheet" href="css/cssHome/apresentacao/apresentacao-conteudo.css">
-
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre.css">
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre-titulo.css">
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre-conteudo.css">
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre-img.css">
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre-caixa.css">
-    <link rel="stylesheet" href="css/cssHome/sobre/sobre-texto.css">
-
-    <link rel="stylesheet" href="css/cssHome/habilidades/habilidades.css">
-    <link rel="stylesheet" href="css/cssHome/habilidades/habilidades-titulo.css">
-    <link rel="stylesheet" href="css/cssHome/habilidades/habilidades-logos.css">
-    <link rel="stylesheet" href="css/cssHome/habilidades/habilidades-img.css">
-
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-objeto.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-link.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-img.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-titulo.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-subtitulo.css">
-    <link rel="stylesheet" href="css/cssHome/projetos/projetos-texto.css">
-
-    <link rel="stylesheet" href="css/rodape/rodape.css">
-    <link rel="stylesheet" href="css/rodape/rodape-texto.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
-    <header>
-        <section class="cabecalho">
-            <nav class="cabecalho__navegacao">
-                <ul class="cabecalho__lista">
-                    <li class="cabecalho__objeto"><a class="cabecalho__link ativo" href="index.html">Home</a></li>
-                    <li class="cabecalho__objeto"><a class="cabecalho__link" href="projetos.html">Projetos</a></li>
+    <header class="cabecalho">
+        <section class="menu">
+            <img class="menu__logo--img" src="assets/img/Logotipo_vini.png" alt="Logo vasconcelos dev">
+            <nav class="menu__redes">
+                <ul class="menu__lista--redes">
+                    <li class="menu__item">
+                        <a href="https://www.linkedin.com/in/vinicius-vasconcelos-a95189200/" class="menu__link">
+                            <div class="menu__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                </svg>
+                            </div>
+                            <p class="menu__texto">Linkdin</p>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="https://github.com/viny1290" class="menu__link">
+                            <div class="menu__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                            </div>
+                            <p class="menu__texto">GitHub</p>
+                        </a>
+                    </li>
                 </ul>
             </nav>
-        </section>
-    </header>
-    <main>
-        <section class="apresentacao">
-            <h1 class="apresentacao__titulo">Vinícius De V. Nascimento</h1>
-            <h2 class="apresentacao__subtitulo">Desenvolvedor Front-End</h2>
-            <div class="apresentacao__conteudo">
-                <img class="apresentacao__img" src="trabalhando.svg" alt="Desenho de uma pessoa trabalhando no computador">
-                <nav class="apresentacao__redes">
-                    <ul class="apresentacao__lista">
-                        <li class="apresentacao__botao"><a href="https://www.linkedin.com/in/vinicius-vasconcelos-a95189200/" class="apresentacao__link"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
-                        <li class="apresentacao__botao"><a href="https://github.com/viny1290" class="apresentacao__link"><i class="fa-brands fa-square-github"></i>GitHub</a></li>
-                    </ul>
-                </nav>
+            <nav class="menu__home">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Projetos</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="menu__menu--icon">
+                <button onclick="menuShow()"><img src="assets/img/menu_white_36dp.svg" alt="" class="menu__img"></button>
             </div>
         </section>
-        <hr>
+        <nav class="mobile off">
+            <ul class="menu__lista--mobile">
+                <li class="menu__item--mobile"><a href="#" class="menu__link--mobile">Home</a></li>
+                <li class="menu__item--mobile"><a href="#" class="menu__link--mobile">Projetos</a></li>
+                <li class="menu__item--mobile"><a href="#" class="menu__link--mobile">Sobre</a></li>
+            </ul>
+        </nav>
+        <section class="apresentacao">
+            <video class="apresentacao__video" autoplay muted loop>
+                <source src="assets/videos/fundoburaconegro.mp4" type="video/mp4">
+            </video>
+            <div class="apresentacao__container">
+                <img class="apresentacao__img" src="assets/img/vini_vas.png" alt="Vinícius de Vasconcelos">
+                <div class="apresentacao__conteudo">
+                    <h2 class="apresentacao__hora"></h2>
+                    <h1 class="titulos apresentacao__titulo"></h1>
+                    <a class="apresentacao__curiculo" href="assets/img/Profile (3).pdf" download="">
+                        Download CV
+                        <i class="uil uil-download-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="meio">
         <section class="sobre">
-            <h2 class="sobre__titulo">Sobre Mim</h2>
-            <div class="sobre__conteudo">
-                <img class="sobre__img" src="img/vinicius.jpeg" alt="vinicius de Vasconcelos Nascimento">
-                <div class="sobre__caixa">
-                    <p class="sobre__texto">Sou Vinícius de Vasconcelos Nascimento e tenho 18 anos. Resido em São Paulo capital e estou em busca de uma oportunidade para ingressar no mercado de trabalho.</p>
-                    <p class="sobre__texto">Atualmente curso faculdade de Ciência da Computação na instituição de ensino <strong><a href="https://www.cruzeirodosul.edu.br/">Universidade Cruzeiro do Sul</a></strong> no período noturno e em paralelo a isto busco aprimorar meus conhecimentos com os cursos online da <strong><a href="https://www.alura.com.br/">Alura</a></strong>. Meu interesse nesta área nasceu quando ao navegar pela internet vi um anuncio de um evento de 7 dias para criar um jogo e notei que tinha certa habilidade para executar esta atividade.</p>
-                    <p class="sobre__texto">Me coloco a disposição das empresas para futuras oportunidades visando sempre o comprometimento, empenho e dedicação.</p>
+            <div class="sobre__area--botoes">
+                <button id="sobre--botao1" class="sobre__botao botao__ativo">Sobre</button>
+                <button id="sobre--botao2" class="sobre__botao botao__desativado">Certificados</button>
+            </div>
+            <div id="sobre--conteudo1" class="sobre__conteudo conteudo__ativo">
+                <h2 class="titulos sobre__titulo">Sobre mim</h2>
+                <p class="sobre__texto">
+                    Sou Vinícius de Vasconcelos Nascimento e tenho 18 anos. Resido em São Paulo capital e estou em busca de uma oportunidade para ingressar no mercado de trabalho.
+                </p>
+                <p class="sobre__texto">Atualmente curso faculdade de Ciência da Computação na instituição de ensino Universidade Cruzeiro do Sul no período noturno e em paralelo a isto busco aprimorar meus conhecimentos com os cursos online da Alura.
+                    Meu interesse nesta área nasceu quando ao navegar pela internet vi um anuncio de um evento de 7 dias para criar um jogo e notei que tinha certa habilidade para executar esta atividade.
+                </p>
+            </div>
+            <div id="sobre--conteudo2" class="sobre__conteudo conteudo__desativado">
+                <h2 class="titulos sobre__titulo">Certificados</h2>
+                <div class="sobre__carrossel">
+                    <div id="mobile" class="sobre__container sobre__container--mobile">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoFront-End_page-0001.jpg" alt="">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoHTMLeCSS_page-0001.jpg" alt="">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoGiteGitHub_page-0001.jpg" alt="">
+                    </div>
+                    <div id="tab" class="sobre__container sobre__container--ot">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoFront-End_page-0001.jpg" alt="">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoHTMLeCSS_page-0001.jpg" alt="">
+                        <img class="sobre__img" src="assets/img/certificados/CertificadoGiteGitHub_page-0001.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
         <section class="habilidades">
-            <h2 class="habilidades__titulo">Habilidades</h2>
-            <div class="habilidades__logos">
-                <img class="habilidades__img" src="img/html.png" alt="HTML">
-                <img class="habilidades__img" src="img/css.png" alt="CSS">
+            <h2 class=" titulos habilidades__titulo">Habilidades</h2>
+            <h3 class="habilidades__subtitulo">Meu nivel técnico</h3>
+
+            <div class="habilidades__container" data-anime="left">
+                <div class="habilidades__content">
+                    <div onclick="iconHab()" class="habilidades__header">
+                        <i class="uil uil-brackets-curly habilidades__icon"></i>
+
+                        <div>
+                            <h2 class="titulos habilidades__titulo">Front-End Developer</h2>
+                            <h3 class="habilidades__subtitulo">1 ano estudando</h3>
+                        </div>
+
+                        <i class="uil uil-angle-down habilidades__arrow"></i>
+                    </div>
+
+                    <div class="habilidades__list open">
+                        <div class="habilidades__data">
+                            <div class="habilidades__titulo">
+                                <h3 class="habilidades__nome">HTML</h3>
+                                <span class="habilidades__numero">90%</span>
+                            </div>
+                            <div class="habilidades__bar">
+                                <span class="habilidades__percentual habilidades__html"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__data">
+                            <div class="habilidades__titulo">
+                                <h3 class="habilidades__nome">CSS</h3>
+                                <span class="habilidades__numero">80%</span>
+                            </div>
+                            <div class="habilidades__bar">
+                                <span class="habilidades__percentual habilidades__css"></span>
+                            </div>
+                        </div>
+                        <div class="habilidades__data">
+                            <div class="habilidades__titulo">
+                                <h3 class="habilidades__nome">JavaScript</h3>
+                                <span class="habilidades__numero">40%</span>
+                            </div>
+                            <div class="habilidades__bar">
+                                <span class="habilidades__percentual habilidades__javascript"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <hr>
         <section class="projetos">
-            <h2 class="projetos__titulo">Melhores Projetos</h2>
-            <div class="projetos__objeto">
-                <a href="https://viny1290.github.io/OptimusTech/" class="projetos__link">
-                    <div class="projetos__img projetos__img--optimus">
-                        <h3 class="projetos__subtitulo">Visite o projeto</h3>
-                        <p class="projetos__subtitulo">Venha ver!</p>
-                    </div>
-                    <div class="projetos__conteudo">
-                        <p class="projetos__texto">Desafio da Alura com 7daysOfCode, criar um site do zero para uma empresa que esta a procura de novos desgns e desenvolvedores</p>
-                        <p class="projetos__texto">O desafio foi terminar o projeto em 7 dias so usando HTML e CSS.</p>
+            <h2 class="titulos">Meus Projetos</h2>
+            <div class="projetos__container" data-anime="right">
+                <a href="https://viny1290.github.io/OptimusTech/" class="projeto__link projetopc">
+                    <div class="projeto OptimusTech">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">OptimusTech</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
                     </div>
                 </a>
-            </div>
-            <div class="projetos__objeto">
-                <a href="projetos/Modulo-01HTMLeCSS-Copia/pagina.html" class="projetos__link">
-                    <div class="projetos__img projetos__img--barbeariaalura">
-                        <h3 class="projetos__subtitulo">Visite o projeto</h3>
-                        <p class="projetos__subtitulo">Venha ver!</p>
-                    </div>
-                    <div class="projetos__conteudo">
-                        <p class="projetos__texto">Esse projeto foi minha primeira aula da Alura, E um site de um barbeiro mostrando seus preços e um formulario de contato, treinei colocar o mapa do google e video do youtube.</p>
-                        <p class="projetos__texto">O professor depois de ensinar a transformar a home responsiva dexou o desafio de fazer o mesmo para as outras paginas.</p>
+                <a href="https://viny1290.github.io/AluraBook/" class="projeto__link">
+                    <div class="projeto AluraBooks">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">AluraBooks</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
                     </div>
                 </a>
-            </div>
-            <div class="projetos__objeto">
-                <a href="projetos/academia-Copia/pagina.html" class="projetos__link">
-                    <div class="projetos__img projetos__img--academia">
-                        <h3 class="projetos__subtitulo">Visite o projeto</h3>
-                        <p class="projetos__subtitulo">Venha ver!</p>
-                    </div>
-                    <div class="projetos__conteudo">
-                        <p class="projetos__texto">Esse projeto foi de uma landing Page de uma academia, nesse projeto treinei colocar um fundo com imagem com um gradiente, primeira vez que fiz animação em botões</p>
-                        <p class="projetos__texto">O desafio foi transformar essa landing, responsiva.</p>
+                <a href="https://viny1290.github.io/landinpageAcademia/" class="projeto__link">
+                    <div class="projeto">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">ACADEMIAINFINITY</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
                     </div>
                 </a>
-            </div>
-            <div class="projetos__objeto">
-                <a href="projetos/Galeriadefotos/pagina.html" class="projetos__link">
-                    <div class="projetos__img projetos__img--cachorro">
-                        <h3 class="projetos__subtitulo">Visite o projeto</h3>
-                        <p class="projetos__subtitulo">Venha ver!</p>
+                <a href="https://viny1290.github.io/galeriadefotos/" class="projeto__link">
+                    <div class="projeto Galeriadefotos">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">Galeria de fotos</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
                     </div>
-                    <div class="projetos__conteudo">
-                        <p class="projetos__texto">Esse projeto foi uma aula da faculdade, para aprender sobre imagens no css.</p>
-                        <p class="projetos__texto">Na aula também aprendemos sobre display flex.</p>
+                </a>
+                <a href="https://viny1290.github.io/paginadelogin/" class="projeto__link">
+                    <div class="projeto login">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">Pagina de login</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://viny1290.github.io/cadastro/" class="projeto__link projetopc">
+                    <div class="projeto">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">Pagina DEV</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://viny1290.github.io/Alurabarbearia/index.html" class="projeto__link">
+                    <div class="projeto barbearia">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">Barbearia</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://viny1290.github.io/apeperia/" class="projeto__link">
+                    <div class="projeto apeperia">
+                        <div class="projeto__cont">
+                            <h2 class="projeto__titulo">Apeperia</h2>
+                            <h3>Venha ver!</h3>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -148,6 +227,14 @@
     <footer class="rodape">
         <p class="rodape__texto">&copy; 2022 - Vinícius de Vasconcelos Nascimento</p>
     </footer>
-    <script src="https://kit.fontawesome.com/d669bd3baa.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/menu-mobile.js"></script>
+    <script src="assets/js/escrever.js"></script>
+    <script src="assets/js/hora.js"></script>
+    <script src="assets/js/animacao.js"></script>
+    <script src="assets/js/botaoSobre.js"></script>
+    <script src="assets/js/carrossel.js"></script>
+    <script src="assets/js/botaoHabilidades.js"></script>
+
 </body>
 </html>
