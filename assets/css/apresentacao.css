@@ -24,14 +24,7 @@
 }
 
 .apresentacao__titulo {
-    background-image: var(--cor-titulo);
-    background-clip: text;
     margin-top: .5rem;
-    font-size: 25px;
-    font-weight: 500;
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent
 }
 
 .apresentacao__hora {
@@ -41,6 +34,36 @@
 .apresentacao__img {
     opacity: 0.9;
     width: 10rem;
+    z-index: -1;
+}
+
+.apresentacao__curiculo {
+    align-items: center;
+    background-color: var(--botao-cur);
+    border: 1px solid var(--botao-cur);
+    border-left: 10px solid var(--botao-cur-click);
+    border-radius: 5px;
+    color: var(--letra);
+    display: flex;
+    font-size: 24px;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.uil {
+    font-size: 30px;
+    margin: 0 .5rem;
+}
+
+.apresentacao__icon {
+    color: var(--letra);
+}
+
+.apresentacao__curiculo:hover {
+    color: var(--botao-cur);
+    background-color: var(--letra);
 }
 
 @media screen and (min-width: 768px) {
@@ -51,11 +74,6 @@
     .apresentacao__conteudo {
         width: 30rem;
         margin: 0;
-    }
-
-    .apresentacao__titulo {
-        font-size: 35px;
-        margin-top: 1rem;
     }
     
     .apresentacao__hora {
@@ -82,10 +100,6 @@
 
     .apresentacao__conteudo {
         width: 70rem;
-    }
-
-    .apresentacao__titulo {
-        font-size: 60px;
     }
 
     .apresentacao__hora {

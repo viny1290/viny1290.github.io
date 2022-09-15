@@ -1,0 +1,72 @@
+.projetos__container {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projeto__link {
+    text-decoration: none;
+    color: var(--letra);
+}
+
+.projeto {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+}
+
+.projeto__cont {
+    text-align: center;
+}
+
+.projeto__titulo {
+    font-size: 25px;
+}
+
+.OptimusTech {
+    background:url('https://viny1290.github.io/OptimusTech/img/worldwide%201%20(Traced).svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.AluraBooks {
+    background:url('https://viny1290.github.io/AluraBook/img/Logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.Galeriadefotos {
+    background:url('https://viny1290.github.io/galeriadefotos/img/cao1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+}
+
+.login {
+    background:url('https://viny1290.github.io/paginadelogin/pessoas.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.barbearia {
+    background:url('https://viny1290.github.io/Alurabarbearia/imagens/logo-branco.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.apeperia {
+    background:url('https://viny1290.github.io/apeperia/img/logo-apeperia.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}

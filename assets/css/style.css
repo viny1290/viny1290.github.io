@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-@import url('menu/menu.css');
-@import url('apresentacao/apresentacao.css');
-@import url('sobre/sobre.css');
+@import url('menu.css');
+@import url('apresentacao.css');
+@import url('sobre.css');
+@import url('habilidades.css');
+@import url('projetos.css');
 
 :root {
+
     --menu: #00008B;
     --icones: #fff;
     --letra: #D3D3D3;
@@ -14,7 +17,15 @@
 
     --cor-fundo: #000000;
 
+    --botao-cur: #00008B;
+    --botao-cur-click: #0e0ee2;
+
+    --porcentual: #fff;
+
+    --rodape: rgb(110, 110, 110);
+
     --font: 'Inter', sans-serif;
+
 }
 
 body {
@@ -25,10 +36,37 @@ body {
     font-weight: 300;
 }
 
+.open {
+    display: block;
+}
+
+.off {
+    display: none;
+}
+
+.titulos {
+    background-image: var(--cor-titulo);
+    background-clip: text;
+    font-size: 25px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
 .meio {
     padding: 1rem;
 }
 
+.rodape {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--rodape);
+}
+
+.projetopc {
+    display: none;
+}
 
 
 
@@ -48,4 +86,22 @@ body {
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+
+@media screen and (min-width: 768px) {
+    .titulos {
+        font-size: 35px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .titulos {
+        font-size: 60px;
+    }
+
+    .projetopc {
+        display: block;
+    }
 }

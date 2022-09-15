@@ -29,14 +29,7 @@
 }
 
 .sobre__titulo {
-    background-image: var(--cor-titulo);
-    background-clip: text;
     margin-top: .5rem;
-    font-size: 40px;
-    font-weight: 500;
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent
 }
 
 .sobre__texto {
