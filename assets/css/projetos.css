@@ -29,6 +29,13 @@
     font-size: 25px;
 }
 
+.robotron {
+    background:url('https://robotron-2000-ten-kohl.vercel.app/img/robotron.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
 .OptimusTech {
     background:url('https://viny1290.github.io/OptimusTech/img/worldwide%201%20(Traced).svg');
     background-repeat: no-repeat;
